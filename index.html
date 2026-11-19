@@ -553,18 +553,41 @@
       </div>
     </div>
 
-    <div class="project-card">
+    <div class="project-card featured">
       <div class="pc-top">
-        <div class="pc-icon">📈</div>
-        <span class="badge badge-wip">En cours</span>
+        <div class="pc-icon">
+          <svg width="22" height="22" fill="none" stroke="currentColor" viewBox="0 0 24 24" style="color: var(--accent2);">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M3 12h4l2-6 4 12 2-6h6"/>
+          </svg>
+        </div>
+        <span class="badge badge-done">Terminé</span>
       </div>
       <div class="pc-body">
-        <h3>Projet Data à venir</h3>
-        <p>Un nouveau projet est actuellement en développement. Il rejoindra bientôt ce portfolio avec analyses, modèles et résultats détaillés.</p>
+        <h3>Dépistage du diabète – Pima Indians</h3>
+        <p>Analyse de 768 patientes : traitement des valeurs manquantes déguisées (zéros biologiquement impossibles), comparaison de 3 modèles, XGBoost avec un seuil de décision orienté Recall pour ne pas manquer les malades, et API de prédiction FastAPI testée.</p>
         <div class="tags">
           <span class="tag">Python</span>
-          <span class="tag">ML</span>
-          <span class="tag orange">Bientôt</span>
+          <span class="tag">XGBoost</span>
+          <span class="tag">Scikit-learn</span>
+          <span class="tag green">FastAPI</span>
+          <span class="tag green">Pytest</span>
+        </div>
+        <a href="https://github.com/Oumar-ds/diabetes-prediction" target="_blank" class="pc-link">
+          Voir sur GitHub →
+        </a>
+      </div>
+      <div class="pc-stats">
+        <div class="pc-stat">
+          <span class="sv">83%</span>
+          <span class="sl">Recall</span>
+        </div>
+        <div class="pc-stat">
+          <span class="sv">0.82</span>
+          <span class="sl">AUC (test)</span>
+        </div>
+        <div class="pc-stat">
+          <span class="sv">API</span>
+          <span class="sl">FastAPI</span>
         </div>
       </div>
     </div>
