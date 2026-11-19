@@ -228,7 +228,8 @@
       transition: border-color .2s, transform .2s;
     }
     .skill-card:hover { border-color: var(--accent); transform: translateY(-3px); }
-    .sk-icon { font-size: 1.5rem; margin-bottom: .7rem; }
+    .sk-icon { margin-bottom: .7rem; color: var(--accent); line-height: 0; }
+    .sk-icon svg { width: 26px; height: 26px; }
     .skill-card h3 { font-size: .95rem; font-weight: 600; margin-bottom: .35rem; }
     .skill-card p { font-size: .82rem; color: var(--muted); margin-bottom: .9rem; }
     .tags { display: flex; flex-wrap: wrap; gap: .35rem; }
@@ -268,8 +269,9 @@
       background: linear-gradient(135deg, rgba(108,142,255,.15), rgba(0,212,170,.1));
       border-radius: .5rem;
       display: flex; align-items: center; justify-content: center;
-      font-size: 1.3rem;
+      color: var(--accent2);
     }
+    .pc-icon svg { width: 22px; height: 22px; }
     .badge {
       font-family: 'JetBrains Mono', monospace;
       font-size: .62rem; padding: .2rem .6rem;
@@ -394,7 +396,7 @@
     </h1>
     <p class="hero-role">// <span>Data Scientist</span> · ML Engineer · Analyste</p>
     <p class="hero-desc">
-      Je transforme les données brutes en <strong>décisions intelligentes</strong>. Passionné par le machine learning et l'IA, je construis des modèles qui résolvent des problèmes concrets — de l'analyse exploratoire au déploiement en production.
+      Je transforme les données brutes en <strong>décisions intelligentes</strong>. Passionné par le machine learning et l'IA, je construis des modèles qui résolvent des problèmes concrets, de l'analyse exploratoire au déploiement en production.
     </p>
     <div class="hero-ctas">
       <a href="#projects" class="btn btn-primary">Voir mes projets →</a>
@@ -423,7 +425,7 @@
     <div class="about-text">
       <p>Je suis <strong>Data Scientist &amp; Data Analyst</strong> et étudiant en <strong>Master 1 Data &amp; Intelligence Artificielle</strong> à l'Université Polytechnique de Bingerville, je me passionne pour la science des données depuis le premier jour où j'ai compris qu'un algorithme pouvait prédire l'avenir d'un dataset.</p>
       <p>Mon approche : <strong>comprendre le problème avant de choisir l'outil</strong>. Je suis à l'aise aussi bien dans l'analyse exploratoire que dans la construction et le déploiement de modèles de machine learning.</p>
-      <p>Mon ambition est de contribuer à des projets data qui ont un <strong>impact réel</strong> — que ce soit dans la finance, la santé, ou le secteur public en Afrique et au-delà.</p>
+      <p>Mon ambition est de contribuer à des projets data qui ont un <strong>impact réel</strong>, que ce soit dans la finance, la santé, ou le secteur public en Afrique et au-delà.</p>
     </div>
     <div class="info-cards">
       <div class="info-card">
@@ -459,7 +461,7 @@
   <div class="skills-grid reveal">
 
     <div class="skill-card">
-      <div class="sk-icon">🐍</div>
+      <div class="sk-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg></div>
       <h3>Programmation &amp; Data</h3>
       <p>Analyse, manipulation et traitement de données structurées et non-structurées.</p>
       <div class="tags">
@@ -471,7 +473,7 @@
     </div>
 
     <div class="skill-card">
-      <div class="sk-icon">🤖</div>
+      <div class="sk-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="4" width="16" height="16" rx="2"/><rect x="9" y="9" width="6" height="6"/><path d="M9 1v3M15 1v3M9 20v3M15 20v3M20 9h3M20 14h3M1 9h3M1 14h3"/></svg></div>
       <h3>Machine Learning</h3>
       <p>Modélisation prédictive, classification, régression et évaluation de modèles.</p>
       <div class="tags">
@@ -482,7 +484,7 @@
     </div>
 
     <div class="skill-card">
-      <div class="sk-icon">🧠</div>
+      <div class="sk-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="5" cy="6" r="2"/><circle cx="5" cy="18" r="2"/><circle cx="12" cy="12" r="2"/><circle cx="19" cy="6" r="2"/><circle cx="19" cy="18" r="2"/><path d="M6.8 7.2l3.4 3.6M6.8 16.8l3.4-3.6M13.8 10.8l3.4-3.6M13.8 13.2l3.4 3.6"/></svg></div>
       <h3>Deep Learning</h3>
       <p>Réseaux de neurones artificiels pour des problèmes complexes de classification.</p>
       <div class="tags">
@@ -493,7 +495,7 @@
     </div>
 
     <div class="skill-card">
-      <div class="sk-icon">📊</div>
+      <div class="sk-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 20v-8M12 20V4M18 20V9"/></svg></div>
       <h3>Visualisation &amp; BI</h3>
       <p>Création de dashboards interactifs et de visualisations pour communiquer les insights.</p>
       <div class="tags">
@@ -505,7 +507,7 @@
     </div>
 
     <div class="skill-card">
-      <div class="sk-icon">🗄️</div>
+      <div class="sk-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg></div>
       <h3>Bases de données</h3>
       <p>Requêtage avancé, modélisation et gestion de bases de données relationnelles.</p>
       <div class="tags">
@@ -516,7 +518,7 @@
     </div>
 
     <div class="skill-card">
-      <div class="sk-icon">⚙️</div>
+      <div class="sk-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="2" width="20" height="8" rx="2"/><rect x="2" y="14" width="20" height="8" rx="2"/><path d="M6 6h.01M6 18h.01"/></svg></div>
       <h3>Déploiement &amp; MLOps</h3>
       <p>Mise en production de modèles via APIs REST, versioning et conteneurisation.</p>
       <div class="tags">
@@ -540,14 +542,15 @@
 
     <div class="project-card featured">
       <div class="pc-top">
-        <div class="pc-icon">🚢</div>
-        <span class="badge badge-done">✓ Terminé</span>
+        <div class="pc-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 16l2.5 4h13L21 16z"/><path d="M6 16v-5h12v5"/><path d="M9 11V7h6v4"/><path d="M12 3v4"/></svg></div>
+        <span class="badge badge-done">Terminé</span>
       </div>
       <div class="pc-body">
         <h3>Prédiction de survie – Titanic</h3>
-        <p>Analyse complète des 891 passagers du Titanic : nettoyage des données, visualisation des facteurs de survie (genre, classe, port d'embarquement), comparaison de 3 algorithmes ML et déploiement d'une API de prédiction en temps réel.</p>
+        <p>Analyse complète des 891 passagers du Titanic : nettoyage des données, visualisation des facteurs de survie (genre, classe, port d'embarquement), comparaison de 4 algorithmes ML dont XGBoost et déploiement d'une API de prédiction en temps réel.</p>
         <div class="tags">
           <span class="tag">Python</span>
+          <span class="tag">XGBoost</span>
           <span class="tag">Random Forest</span>
           <span class="tag">TensorFlow</span>
           <span class="tag green">FastAPI</span>
@@ -559,15 +562,15 @@
       </div>
       <div class="pc-stats">
         <div class="pc-stat">
-          <span class="sv">81.56%</span>
+          <span class="sv">83.80%</span>
           <span class="sl">Précision</span>
         </div>
         <div class="pc-stat">
-          <span class="sv">3</span>
+          <span class="sv">4</span>
           <span class="sl">Modèles comparés</span>
         </div>
         <div class="pc-stat">
-          <span class="sv">API ✓</span>
+          <span class="sv">API</span>
           <span class="sl">Déployée</span>
         </div>
       </div>
@@ -614,7 +617,7 @@
 
     <div class="project-card">
       <div class="pc-top">
-        <div class="pc-icon">🔬</div>
+        <div class="pc-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></div>
         <span class="badge badge-wip">En cours</span>
       </div>
       <div class="pc-body">
@@ -648,7 +651,7 @@
 
     <div class="tl-item">
       <div class="tl-date">Juil. – Oct. 2025</div>
-      <h3>Analyste Data — Stagiaire</h3>
+      <h3>Analyste Data, Stagiaire</h3>
       <div class="tl-org">MEMFPMA · Abidjan</div>
       <p>Collecte et structuration des données relatives aux congés maladie, validation des courriers administratifs, mise en forme des données pour le reporting et la prise de décision.</p>
     </div>
@@ -657,7 +660,7 @@
       <div class="tl-date">2022 – 2025</div>
       <h3>Licence – Statistique et Économie Appliquée</h3>
       <div class="tl-org">Université Polytechnique de Bingerville · Côte d'Ivoire</div>
-      <p>Probabilités, statistiques, économétrie, programmation orientée objet, bases de données. — Mention Bien</p>
+      <p>Probabilités, statistiques, économétrie, programmation orientée objet, bases de données. Mention Bien</p>
     </div>
 
   </div>
@@ -696,7 +699,7 @@
       github.com/Oumar-ds
     </a>
 
-    <a href="cv_konate_zana_oumar_v2.pdf" download class="c-link">
+    <a href="cv_konate_zana_oumar.pdf" download class="c-link">
       <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"
           d="M12 10v6m0 0l-3-3m3 3l3-3M3 17V7a2 2 0 012-2h6l2 2h6a2 2 0 012 2v8a2 2 0 01-2 2H5a2 2 0 01-2-2z"/>
